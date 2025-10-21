@@ -1,0 +1,137 @@
+@import './../scss/config';
+
+.container{
+  background-color: #3E3B2C;
+}
+
+.about-section-container {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  margin-top: 0%;
+  background-repeat: no-repeat;
+}
+
+.about-section-text-container {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.primary-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.hehe{
+  color: #be910d;
+}
+
+.primary-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px; /* Adjust the max-width as needed */
+  margin-top: 30px; /* Adjust the spacing between the text and images */
+}
+
+.centered-image {
+  max-width: 70px; /* Adjust the size as needed */
+  max-height: 70px; /* Adjust the size as needed */
+}
+
+
+
+
+
+.contact-section {
+  display: flex;
+  flex: 1;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 7%;
+  
+}
+
+.text-side {
+  flex: 0.9;
+  padding: 10px;
+
+}
+.text-side {
+  p {
+    margin: 0; /* Remove the bottom margin to eliminate space between paragraphs */
+  }
+  .one {
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #be910d; /* Adjust the color as needed */
+  }
+
+  .two {
+    font-size: 35px; /* Adjust the font size as needed */
+    color: white; /* Adjust the color as needed */
+  }
+}
+
+.contact-box {
+  flex: 1;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px; /* Adjust the height as needed */
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #9a6a11; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #555; /* Button background color on hover */
+}
+
+.gr__circle__top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: 200px;
+  background-color: #FACD49;
+  filter: blur(122px);
+}
+.gr__circle__bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #FACD49;
+  filter: blur(150px);
+}

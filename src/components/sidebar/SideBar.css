@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #3b3b2c;
+  color: #fff;
+  
+  .logo {
+    font-size: 1.5rem;
+    /* Add your logo styles here */
+  }
+  .gr__circle__top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #FACD49;
+    filter: blur(170px);
+  }
+  /* .gr__circle__bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #FACD49;
+    filter: blur(122px);
+  } */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    
+    li {
+      margin-right: 50px;
+      
+      a {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+          text-decoration: underline;
+          color:#be910d;
+          
+        }
+      }
+    }
+  }
+  
+  .login {
+    a{
+    color:white;
+    size: 20px;
+    }
+  }
+  .rounded-button {
+    border: none;
+    background-color: #be910d;
+    color:white;
+    padding: 8px 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 10px; /* Adjust as needed */
+    size:100;
+  }
+
+  .rounded-button:hover {
+    background-color: #d9a306; /* Lighter shade of the main color on hover */
+  }
+}
+
+
